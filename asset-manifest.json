@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicMovesEntertainment/static/css/main.6cfdb15c.css",
-    "main.js": "/MusicMovesEntertainment/static/js/main.42083dfb.js",
+    "main.js": "/MusicMovesEntertainment/static/js/main.e106b52a.js",
     "static/js/787.c3034a29.chunk.js": "/MusicMovesEntertainment/static/js/787.c3034a29.chunk.js",
     "static/media/djboard4.png": "/MusicMovesEntertainment/static/media/djboard4.05184fc8e48618e974bd.png",
     "static/media/djboard.jpg": "/MusicMovesEntertainment/static/media/djboard.fbfb961d67a5ba57b5f9.jpg",
@@ -33,11 +33,11 @@
     "static/media/party.png": "/MusicMovesEntertainment/static/media/party.29e20787a6c62387816c.png",
     "index.html": "/MusicMovesEntertainment/index.html",
     "main.6cfdb15c.css.map": "/MusicMovesEntertainment/static/css/main.6cfdb15c.css.map",
-    "main.42083dfb.js.map": "/MusicMovesEntertainment/static/js/main.42083dfb.js.map",
+    "main.e106b52a.js.map": "/MusicMovesEntertainment/static/js/main.e106b52a.js.map",
     "787.c3034a29.chunk.js.map": "/MusicMovesEntertainment/static/js/787.c3034a29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cfdb15c.css",
-    "static/js/main.42083dfb.js"
+    "static/js/main.e106b52a.js"
   ]
 }

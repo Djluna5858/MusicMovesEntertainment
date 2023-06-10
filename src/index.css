@@ -1,0 +1,1221 @@
+@font-face {
+  font-family: MadeTommyExtraBoldOutline;
+  src: url('/src/Resources/Fonts/MADE TOMMY ExtraBold Outline.otf');
+}
+@font-face {
+  font-family: MadeTommyExtraBold;
+  src: url('/src/Resources/Fonts/MADE TOMMY ExtraBold.otf');
+}
+@font-face {
+  font-family: MadeTommyMediumOutline;
+  src: url('/src/Resources/Fonts/MADE TOMMY Medium Outline.otf');
+}
+@font-face {
+  font-family: MadeTommyMedium;
+  src: url('/src/Resources/Fonts/MADE TOMMY Medium.otf');
+}
+@font-face {
+  font-family: MadeTommyRegular;
+  src: url('/src/Resources/Fonts/MADE TOMMY Regular.otf');
+}
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'MadeTommyMedium';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  height: 110px;
+}
+
+.navLeft {
+  float: left;
+  width: 40%;
+  display: flex;
+  padding-left: 3rem;
+}
+.navRight {
+  float: right;
+  width: 50%;
+  display: flex;
+}
+
+#HomePage {
+  background-color: black;
+  background-image: url(
+    "./Resources/Images/Photos/backdrop2.png"
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  width: 100%;
+}
+
+.nav-bar {
+  font-family: 'MadeTommyMedium';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  right: 0;
+}
+
+.nav-bar li {
+  display: flex;
+  font-size: 1rem;
+  padding-right: 3rem;
+  float:left;
+}
+
+.NavLinks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 65px;
+}
+
+.NavLinks a {
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+}
+
+.Logo {
+  height: 85px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.mainContainer .Container {
+  position: relative;
+  display: block;
+  padding: 0 3rem;
+  height: calc(100vh - 110px);
+}
+
+.grid-rectangle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 3rem;
+  height: calc(100% + 1rem);
+  border: 8px solid #DB6666 !important;
+  border-bottom: 0px !important;
+}
+
+.DJLuna-wrapper {
+    position: relative;
+    height: inherit;
+}
+.DJLuna-wrapper picture {
+    position: absolute;
+    right: 0;
+}
+.DJLuna {
+    height: calc(100vh - 110px + 5.5rem);
+    margin-top: -3rem;
+}
+
+.DJLuna-music {
+  position: absolute;
+  bottom: 3rem;
+  width: calc(100% - 6rem);
+  padding-left: 3rem;
+}
+
+.WeMakeText {
+  font-family:'MadeTommyExtraBoldOutline';
+  font-size: 5rem;
+  text-shadow: 0 0 white;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  margin: 0;
+}
+
+.MusicText {
+  font-family: 'MadeTommyExtraBold';
+  font-size: 8rem;
+  margin: 0;
+  object-fit: contain;
+  display: inline-block;
+  padding-right: 3rem;
+  padding-left: 4rem;
+}
+
+.MoveText {
+  font-family:'MadeTommyExtraBold';
+  font-size: 8rem;
+  margin: 0;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.RedDivider {
+  z-index: 112;
+  position: relative;
+  margin-top: 1rem;
+  display: block;
+}
+.RedDivider_mobile {
+  display: none;
+}
+.RedDivider .InviteMC {
+  background-color: #DA6665;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 38px;
+  font-weight:bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.HeadUnderline {
+  text-decoration-color: red;
+}
+
+.WhatWeDoContainer-wrapper {
+  display: block;
+  background-color: white;
+  position: relative;
+}
+.WhatWeDoContainer-wrapper .divider {
+  width: 40px;
+  border: 1px solid red;
+  margin-left: 100px;
+  margin-top: -1.5rem;
+}
+
+.WhatWeDo-title {
+  width: 50%;
+  display: inline-block;
+}
+
+.WhatWeDoContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.2fr 0.3fr 2fr 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: white;
+}
+
+.WhatWeDoHead {
+  color: #161C53;
+  font-weight: bold;
+  font-family:'MadeTommyExtraBold';
+  font-size: 2.5rem;
+  white-space: nowrap;
+  padding-left: 6rem;
+}
+
+.WhatWeDoPhoto {
+  width: 50%;
+    display: inline-block;
+}
+
+.WhatWeDoText-wrapper {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+.MoreAboutUsArea {
+  //display: none;
+}
+
+.TheSplide.big {
+  display: block;
+}
+.TheSplide.small {
+  display: none;
+}
+
+.DjBoard4 {
+  height: 30vw;
+  grid-row: 2 / span 3;
+  grid-column: 3;
+  object-fit: contain;
+  margin-left: 10%;
+}
+
+.WhatWeDoText {
+  color: black;
+  text-align: left;
+  opacity: 1;
+  object-fit: contain;
+  font-family: 'MadeTommyRegular';
+  padding-left: 6rem;
+
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+
+.MoreAboutUs-wrapper {
+  //background: white;
+  position: absolute;
+  left: 6rem;
+  bottom: 0;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.MoreAboutUs {
+  display: inline-block;
+  font-family: 'MadeTommyMedium';
+  color: #DA6665;
+  border: 2px solid #DA6665;
+  background-color: white;
+  margin: 0;
+  padding: 10px 1rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: fit-content;
+  white-space: nowrap;
+  opacity: 1;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.MoreAboutUsArea {
+  display: none;
+  //grid-row: 3;
+  //grid-column: 2;
+  //align-self:flex-end;
+  //opacity: 1;
+  //z-index: 5;
+  //background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,1));
+}
+
+.ServicesContainer {
+  display: grid;
+  background-color: white;
+}
+
+.ServicesHead {
+  grid-row: 2;
+  grid-column: 2;
+  color: #161C53;
+  font-weight: bold;
+  font-family:'MadeTommyExtraBold';
+  font-size: 6vh;
+}
+
+.Gallery {
+  background-color: White;
+  align-items: center;
+}
+
+.GalleryPhoto {
+  height: 30vw;
+  width: 20vw;
+}
+
+.DjPackages {
+  display: grid;
+  padding-top: 2rem;
+  grid-template-columns: 0.125fr 1fr 0.125fr 1fr 0.125fr 1fr 0.125fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-image: url(
+    "./Resources/Images/Photos/backdrop2.png"
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Basic {
+  grid-row: 1 / span 5;
+  grid-column: 2;
+  border: 3px solid white;
+}
+
+.Standard {
+  grid-row: 1 / span 5;
+  grid-column: 4;
+  border: 3px solid white;
+}
+
+.Premium {
+  grid-row: 1 / span 5;
+  grid-column: 6;
+  border: 3px solid white;
+}
+
+.PackageHead {
+  font-size: 4vh;
+  color: #DB6666;
+  font-family:'MadeTommyMedium';
+  text-align: center;
+}
+
+.PackagePrice {
+  font-size: 4.5vh;
+  color: white;
+  font-family:'MadeTommyMedium';
+  text-align: center;
+}
+
+ul.PackageList {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+ul.PackageList li::before {
+  content: "\2022";
+  color: #DB6666;
+  font-weight: bold;
+  margin-left: -1em;
+  display: inline-block;
+  width: 1em;
+}
+
+.PackageList {
+  font-family: Avenir Next;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.PackageRedNotes {
+  font-family: Avenir Next;
+  color: #DB6666;
+  font-size: 1rem;
+  padding: 0 2rem 1rem;
+}
+
+.HostPhotoContainer-wrapper {
+  position: relative;
+  background-image: url(
+    "./Resources/Images/Photos/brick-wall-texture.png"
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: -webkit-center;
+  text-align: center;
+}
+.HostPhotoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  background-image: url(
+    "./Resources/Images/Photos/brick-wall-texture.png"
+  );
+}
+
+.HostPhotoContainer-wrapper .divider {
+  position: absolute;
+  top: 60px !important;
+  border: 2px solid black;
+  width: 50px;
+  left: calc(50% - 25px);
+  z-index: 110;
+}
+.HostPhotoHead-wrapper {
+  height: 100px;
+}
+
+.HostPhotoHead {
+  color: black;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  padding-top: 1rem;
+}
+span.WithLine {
+  border-bottom: 8px solid black;
+}
+
+#HomePage .HostPhoto {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  //margin: 1vh;
+}
+
+#HP1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#HP2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#HP3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+#HP4 {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+#HP5 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+#HP6 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#HP7 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#HP8 {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.SP0, .SP1, .SP2, .SP3, .SP4, .SP5, .SP6, .SP7 {
+  height: 100%;
+}
+
+.SplideWrapper {
+  max-width: 100%;
+  margin: auto;
+  background: white;
+}
+
+.splide__slide {
+  background: #eee;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.splide--nav {
+  margin-top: 1rem;
+}
+
+.TheSplide {
+  background-color: white;
+  padding: 3%;
+  margin: 0;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ServiceText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Replace {
+  visibility: hidden;
+}
+
+.SP0:hover .Overlay {
+  opacity: 1;
+}
+
+.SP0:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "DJ SERVICES";
+  text-align: left;
+}
+
+.SP1:hover .Overlay {
+  opacity: 1;
+}
+
+.SP1:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "PHOTOGRAPHY & VIDEOGRAPHY";
+  text-align: left;
+}
+
+.SP2:hover .Overlay {
+  opacity: 1;
+}
+
+.SP2:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "PHOTOBOOTH";
+  text-align: left;
+}
+
+.SP3:hover .Overlay {
+  opacity: 1;
+}
+
+.SP3:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "EVENT PLANNING";
+  text-align: left;
+}
+
+.SP4:hover .Overlay {
+  opacity: 1;
+}
+
+.SP4:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "SOUND/LIGHTING EQUIPMENT";
+  text-align: left;
+}
+
+.SP5:hover .Overlay {
+  opacity: 1;
+}
+
+.SP5:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "VENUE RENTAL/ MANAGEMENT";
+  text-align: left;
+}
+
+.SP6:hover .Overlay {
+  opacity: 1;
+}
+
+.SP6:hover .ServiceText .Replace:after {
+  visibility: visible;
+  content: "EVENT PROMOTION/ MARKETING SERVICESY";
+  text-align: left;
+}
+
+
+
+
+
+/* Contact Us */
+
+#Contact html {
+  backgound-color: black;
+}
+
+#Contact nav {
+  background-color: black;
+}
+
+#Contact .NavLinks a {
+  color: white;
+}
+
+#Contact .pageTitle {
+  text-align: left;
+  position: relative;
+  margin-top: 3rem;
+}
+
+#Contact .divider {
+  position: absolute;
+  bottom: 0;
+  border: 2px solid #D86666;
+  width: 10%;
+  left: 0;
+}
+
+#Contact .ContactUsHead {
+  color: #161C53;
+  font-weight: bold;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+
+#Contact .ContactUsTable {
+   border-collapse: separate;
+   border-spacing: 0 1rem;
+}
+
+#Contact .ContactUsTableLabel {
+ vertical-align:top;
+ text-align:left;
+ font-weight: bold;
+ padding-right: 1rem;
+}
+
+#Contact .ContactUsTableText {
+ vertical-align:top;
+ text-align:left;
+ font-weight: normal;
+ padding-right: 1rem;
+}
+
+#Contact .RedText {
+  color: #D86666;
+  font-weight: bold;
+}
+
+#Contact .letsWorkTogether {
+  text-align: left;
+}
+.button-row {
+  text-align: right;
+}
+
+#Contact .FirstName {
+  padding-right: 0.5rem;
+  width: calc(50% - 0.5rem);
+  display: inline-block;
+}
+
+#Contact .LastName {
+  padding-left: 0.5rem;
+  width: calc(50% - 0.5rem);
+  display: inline-block;
+}
+
+#Contact .FirstName .MuiTextField-root,
+#Contact .LastName .MuiTextField-root {
+  width: 100%;
+}
+
+#Contact .Container {
+  width: 600px;
+  margin: auto;
+}
+
+#Contact .Container .button {
+  border-radius: 1.2rem;
+  margin: 1rem 0;
+}
+
+
+
+/* About Us */
+
+#About html {
+  backgound-color: black;
+}
+
+#About nav {
+  background-color: black;
+}
+
+#About .NavLinks a {
+  color: white;
+}
+
+#About .pageTitle {
+  text-align: left;
+  position: relative;
+  margin-top: 3rem;
+}
+
+#About .divider {
+  position: absolute;
+  bottom: 0;
+  border: 2px solid #D86666;
+  width: 10%;
+  left: 0;
+}
+
+#About .AboutUsHead {
+  color: #161C53;
+  font-weight: bold;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.25rem;
+  padding-bottom: 0.5rem;
+}
+
+#About .Container {
+  width: calc(100% - 6rem);
+  margin: auto;
+}
+
+#About .AboutUsContainer {
+  position: relative;
+}
+
+#About .AboutUsPhoto {
+  position: absolute;
+  left: 0px;
+  width: 30%;
+}
+
+#About .AboutUsText {
+  position: absolute;
+  right: 0px;
+  width: calc(100% - 30% - 9rem);
+  padding-left: 3rem;
+  padding-right: 6rem;
+}
+
+#About .AboutUsInstam {
+  display: none;
+
+  color: #161C53;
+  font-weight: bold;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+#About .HostPhoto {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+ .MusicText {
+    font-size: 6rem;
+    line-height: 1;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+  }
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+ .MusicText {
+    font-size: 6rem;
+    line-height: 1;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+  }
+
+}
+
+
+
+/* Simple Phone */
+@media only screen and (max-width: 450px) {
+  nav {
+    height: 95px;
+  }
+  .navLeft {
+    padding-left: 0;
+  }
+  body {
+    font-size: 16px;
+  }
+  .Logo {
+    height: 85px;
+    margin-left: 0 !important;
+    margin-top: 0.5rem !important;
+  }
+  .NavLinks {
+    height: 90px;
+  }
+  .nav-bar li {
+    font-size: 0.75rem;
+    padding-right: 1rem;
+  }
+  .mainContainer .Container {
+    padding: 0 1.5rem;
+    height: calc(100vh - 95px - 54px - 93px);
+  }
+
+  .grid-rectangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 1rem;
+    height: 100%;
+    border: 8px solid #DB6666 !important;
+    border-bottom: 0px !important;
+  }
+  .DJLuna-wrapper {
+    position: relative;
+    height: inherit;
+  }
+  .DJLuna-wrapper picture {
+    position: initial;
+  }
+  .DJLuna {
+    height: calc(100vh - 95px - 11rem);
+    height: auto;
+    position: absolute;
+    bottom: 0rem;
+    width: calc(100% - 3rem);
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  .DJLuna-music {
+    text-align: center;
+    margin-left: -1.5rem;
+    padding-left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .WeMakeText {
+    font-size: 3rem;
+    line-height: 0.6;
+  }
+  .MusicText {
+    font-size: 6rem;
+    line-height: 1;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+  }
+  .MoveText {
+    font-size: 8rem;
+    line-height: 0.6;
+    display: block;
+    padding-bottom: 1rem;
+  }
+
+  .RedDivider {
+    display: none;
+  }
+  .RedDivider_mobile {
+    display: block !important;
+    background: #db6667;
+    z-index: 112;
+    position: relative;
+    text-align: center;
+    padding: 0.5rem;
+    border: 0;
+    padding: 1.5rem 0;
+    width: 100%;
+  }
+  .RedDivider_mobile .InviteMC {
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    margin: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  .WhatWeDo-title{
+    text-align: center;
+    z-index: 110;
+  }
+  #HomePage .WhatWeDoContainer-wrapper .divider {
+    position: absolute;
+    top: 120px;
+    border: 2px solid #D86666;
+    width: 26%;
+    left: 37%;
+    z-index: 110;
+    width: 40px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #HomePage .ServicesContainer-wrapper {
+    position: relative;
+    white-space: nowrap;
+  }
+  #HomePage .ServicesContainer-wrapper .divider {
+    position: absolute;
+    top: 90px !important;
+    border: 2px solid #D86666;
+    width: 15%;
+    left: 40%;
+    z-index: 110;
+  }
+  .DjBoard4 {
+    width: 100vw;
+    height: auto;
+    margin-left: 0;
+    color: white;
+  }
+  .WhatWeDoContainer-wrapper {
+    position: relative;
+  }
+  .WhatWeDo-title {
+    position: absolute;
+    top: 40px;
+    width: 100vw;
+  }
+  .WhatWeDoHead {
+    color: white;
+    width: 100%;
+    padding-left: 0;
+  }
+  .WhatWeDoPhoto {
+    position: absolute;
+    top: 60px;
+  }
+  .WhatWeDoText-wrapper {
+    position: absolute;
+    top: 120px;
+    width: calc(100% - 3rem);
+    /* background: linear-gradient(0deg, white, transparent); */
+    padding: 1.5rem;
+    z-index: 100;
+    height: auto;
+    font-size: 20px;
+  }
+  .WhatWeDoText {
+    padding-left: 0rem;
+    color: white;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+
+  .MoreAboutUs-wrapper {
+    text-align: center;
+    background: white;
+    width: 100vw;
+    z-index: 200;
+    position: relative;
+    padding-top: 1rem;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .MoreAboutUs {
+    text-decoration: none !important;
+  }
+  .MoreAboutUsArea {
+    display: block;
+    height: 50vh;
+  }
+
+  .TheSplide.big {
+    display: none;
+  }
+  .TheSplide.small {
+    display: block;
+  }
+
+  .DjPackages {
+    padding-top: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .Basic {
+    grid-row: 1 / span 5;
+    grid-column: 1;
+    border: 3px solid white;
+    margin: 1rem;
+  }
+  .Standard {
+    grid-row: 2 / span 5;
+    grid-column: 1;
+    border: 3px solid white;
+    margin: 1rem;
+  }
+  .Premium {
+    grid-row: 3 / span 5;
+    grid-column: 1;
+    border: 3px solid white;
+    margin: 1rem;
+  }
+
+  .HostPhotoContainer-wrapper {
+    position: relative;
+  }
+  .HostPhotoContainer {
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    z-index: 1;
+  }
+  .HostPhotoHead {
+    margin: 0;
+    padding-top: 0;
+  }
+  .HostPhotoHead-wrapper {
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    z-index: 2;
+    width: 100%;
+  }
+  .HostPhotoContainer-wrapper .divider {
+    position: absolute;
+    top: 70px !important;
+    border: 2px solid black;
+    width: 15%;
+    left: 40%;
+    z-index: 110;
+  }
+
+  #HomePage .HostPhoto {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+  }
+  #HP1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #HP2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  #HP3 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  #HP4 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  #HP5 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  #HP6 {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  #HP7 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  #HP8 {
+    grid-row: 4;
+    grid-column: 2;
+  }
+
+
+
+  /* Contact Us */
+  
+#Contact .pageTitle {
+    margin-top: 0;
+    text-align: center;
+  }
+  #Contact .divider {
+    width: 30%;
+    left: 35%;
+  }
+
+  #Contact .Container {
+    width: auto;
+    margin: auto;
+  }
+  
+  #Contact .FirstName {
+    padding-right: 0;
+    width: auto;
+    display: block;
+  }
+
+  #Contact .LastName {
+    padding-left: 0;
+    width: auto;
+    display: block;
+  }
+
+  #Contact .field {
+    padding: 0.25rem 0;
+  }
+
+  #Contact .button-row {
+    text-align: center;
+  }
+
+
+  /* About Us */
+
+ #About .mainContainer .Container {
+    padding: 0;
+ }
+
+  #About .pageTitle {
+    margin-top: 0;
+    text-align: center;
+  }
+  #About .divider {
+    width: 30%;
+    left: 35%;
+    display: none;
+  }
+
+  #About .Container {
+    width: auto;
+    margin: auto;
+  }
+
+  #About .HostPhoto {
+    width: 100%;
+  }
+
+  #About .AboutUsHead {
+    color: white;
+  }
+
+  #About .AboutUsPhoto {
+    width: 100%;
+    padding-top: 3rem;
+    background: #141414;
+  }
+
+  #About .AboutUsText {
+    width: calc(100% - 2rem);
+    padding: 0 1rem;
+  }
+  #About .aboutText {
+    padding: calc(100% + 3rem) 2rem 1rem 2rem;
+    line-height: 1.5;
+  }
+
+  #About .AboutUsText .topPart {
+    color: white;
+    padding-bottom: 2rem;
+  }
+
+}

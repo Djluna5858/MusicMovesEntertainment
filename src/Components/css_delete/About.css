@@ -1,0 +1,90 @@
+#About html {
+  backgound-color: black;
+}
+
+#About nav {
+  background-color: black;
+}
+
+#About .NavLinks a {
+  color: white;
+}
+
+#About .pageTitle {
+  text-align: left;
+  position: relative;
+  margin-top: 3rem;
+}
+
+#About .divider {
+  position: absolute;
+  bottom: 0;
+  border: 2px solid #D86666;
+  width: 10%;
+  left: 0;
+}
+
+#About .AboutUsHead {
+  color: #161C53;
+  font-weight: bold;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+
+#About .Container {
+  width: calc(100% - 6rem);
+  margin: auto;
+}
+
+#About .AboutUsContainer {
+  position: relative;
+}
+
+#About .AboutUsPhoto {
+  position: absolute;
+  left: 0px;
+  width: 30%;
+}
+
+#About .AboutUsText {
+  position: absolute;
+  right: 0px;
+  width: calc(100% - 30% - 3rem);
+  padding-left: 3rem;
+}
+
+#About .AboutUsInstam {
+  display: none;
+
+  color: #161C53;
+  font-weight: bold;
+  font-family: 'MadeTommyExtraBold';
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+ 
+}
+
+/* Simple Phone */
+@media only screen and (max-width: 450px) {
+  
+
+  #About .pageTitle {
+    margin-top: 0;
+    text-align: center;
+  }
+  #About .divider {
+    width: 30%;
+    left: 35%;
+  }
+
+  #About .Container {
+    width: auto;
+    margin: auto;
+  }
+
+}

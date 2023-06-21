@@ -18,6 +18,10 @@
   font-family: MadeTommyRegular;
   src: url('/src/Resources/Fonts/MADE TOMMY Regular.otf');
 }
+@font-face {
+  font-family: MadeTommyLight;
+  src: url('/src/Resources/Fonts/MADE TOMMY Light.otf');
+}
 html {
   scroll-behavior: smooth;
   margin: 0px !important;
@@ -235,12 +239,8 @@ nav {
 }
 
 .WhatWeDoText-wrapper {
-  display: inline-block;
   float: left;
   width: 50%;
-}
-.MoreAboutUsArea {
-  //display: none;
 }
 
 .TheSplide.big {
@@ -274,7 +274,6 @@ nav {
 }
 
 .MoreAboutUs-wrapper {
-  //background: white;
   position: absolute;
   left: 6rem;
   bottom: 0;
@@ -300,16 +299,6 @@ nav {
   opacity: 1;
   z-index: 10;
   text-decoration: none;
-}
-
-.MoreAboutUsArea {
-  display: none;
-  //grid-row: 3;
-  //grid-column: 2;
-  //align-self:flex-end;
-  //opacity: 1;
-  //z-index: 5;
-  //background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,1));
 }
 
 .ServicesContainer {
@@ -397,7 +386,7 @@ ul.PackageList li::before {
 }
 
 .PackageList {
-  font-family: Avenir Next;
+  font-family: 'MadeTommyLight';
   line-height: 1.8;
   font-size: 1.2rem;
 }
@@ -460,7 +449,6 @@ span.WithLine {
   height: auto;
   width: 100%;
   border-radius: 8px;
-  //margin: 1vh;
 }
 
 #HP1 {
@@ -639,7 +627,7 @@ span.WithLine {
 /* Contact Us */
 
 #Contact html {
-  backgound-color: black;
+  background-color: black;
 }
 
 #Contact nav {
@@ -735,7 +723,7 @@ span.WithLine {
 /* About Us */
 
 #About html {
-  backgound-color: black;
+  background-color: black;
 }
 
 #About nav {

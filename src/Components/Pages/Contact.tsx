@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { TextField, FormControl, Button } from "@mui/material";
+import { TextField, Button } from "@mui/material";
 import emailjs from '@emailjs/browser';
 
 import "../../index.css";
@@ -7,7 +7,7 @@ import NavBar from "../Layout/NavBar";
 
 const Contact = () => {
 
-  const [emailError, setEmailError] = useState(false)
+  const [emailError] = useState(false)
   const [formValues, setFormValues] = useState({
     first_name: "",
     last_name: "",
@@ -135,7 +135,7 @@ const Contact = () => {
             color="secondary"
             type="text"
             fullWidth
-            value={formValues. company_name}
+            value={formValues.company_name}
             error={emailError}
           /></div>
           <div className="field">
@@ -150,7 +150,7 @@ const Contact = () => {
             multiline
             rows={4}
             fullWidth
-            value={formValues. message}
+            value={formValues.message}
             error={emailError}
           /></div>
           <div className="button-row">

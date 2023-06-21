@@ -3,19 +3,12 @@ import {
   BirthdayPhoto,
   RogerPhoto,
   RogerPhoto_mobile,
-  Djboard4Photo,
   Djboard4Photo_mobile,
-  Djboard2Photo,
-  Djboard3Photo,
-  DjboardPhoto,
   FundraiserPhoto,
   JohnBorbaPhoto,
   MusicPhoto,
   OfficePartyPhoto,
   PartyPhoto,
-  PhotoboothPhoto,
-  PhotoTakingPhoto,
-  SoundnLightingPhoto,
   GradPhoto,
 } from "../../Resources/Resources";
 import { Link } from "react-router-dom";
@@ -23,7 +16,6 @@ import NavBar from "../Layout/NavBar";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css/skyblue";
 import { ServiceSplide } from "../ServicesSplide";
-//import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { generateSlides } from '../generateSlides/generateSlides';
 
 function Home() {
@@ -82,7 +74,6 @@ function Home() {
             his Latino roots as well as popular culture.
           </p>
           </div>
-          <div className="MoreAboutUsArea" />
           <div className="MoreAboutUs-wrapper">
               <Link to="/about" className="MoreAboutUs">MORE ABOUT US </Link>
           </div>
@@ -138,13 +129,13 @@ function Home() {
                <li>4 hours of DJ/Host service</li>
                <div className="PackageRedNotes">(extra time can be requested additional cost)</div>
                <li>Sound system</li>
-               <li>Basic lighting setup (e.g. 2 LED lights)</li>
+               <li>Basic lighting setup (e.g. 2 LED lights, cascade lighting)</li>
                <li>DJ equipment (e.g. laptop, mixer, controller)</li>
                <li>Basic music library with the most popular genres</li>
                <li>One consultation meeting with the client to discuss music preferences</li>
                <li>Set up and tear down of equipment</li>
             </ul>
-            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke) available for event rental at extra cost.</div>
+            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke) available for event rental at extra cost. Basic Package does not cover weddings.</div>
           </div>
           <div className="Standard">
             <h3 className="PackageHead">Standard Package</h3>
@@ -153,13 +144,13 @@ function Home() {
               <li>4 hours of DJ/Host service</li>
               <div className="PackageRedNotes">(extra time can be requested additional cost)</div>
               <li>Upgraded sound system</li>
-              <li>Upgraded lighting setup</li>
+              <li>Upgraded lighting setup (e.g. 2 LED lights, cascade lighting)</li>
               <li>DJ equipment (e.g. laptop, mixer, controller)</li>
-              <li>Extensive music library with a wide range of genres</li>
-              <li>One consultation meeting with the client to discuss music preferences and event details</li>
+              <li>Basic music library with the most popular genres</li>
+              <li>One consultation meeting with the client to discuss music preferences</li>
               <li>Set up and tear down of equipment</li>
             </ul>
-            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke) available for event rental at extra cost.</div>
+            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke), Ceremonial and Cocktail hour music available at extra cost available for event at extra cost.</div>
           </div>
           <div className="Premium">
             <h3 className="PackageHead">Premium Package</h3>
@@ -176,7 +167,7 @@ function Home() {
               <li>Set up and tear down of equipment</li>
               <li>Backup equipment on site in case of technical difficulties</li>
             </ul>
-            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke) available for event rental at extra cost.</div>
+            <div className="PackageRedNotes">* Photo Booth with operator, Dancing in the Clouds, CO2 Cannon (options for confetti, shirts or smoke), Ceremonial and Cocktail hour music available at extra cost.</div>
           </div>
         </div>
         <div className="HostPhotoContainer-wrapper">

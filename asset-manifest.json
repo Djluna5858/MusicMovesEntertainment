@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccec16bb.css",
-    "main.js": "/static/js/main.c4f33797.js",
+    "main.css": "/static/css/main.e9d16a23.css",
+    "main.js": "/static/js/main.4f0ae8df.js",
     "static/js/787.c3034a29.chunk.js": "/static/js/787.c3034a29.chunk.js",
     "static/media/djboard4.png": "/static/media/djboard4.05184fc8e48618e974bd.png",
     "static/media/djboard.jpg": "/static/media/djboard.fbfb961d67a5ba57b5f9.jpg",
@@ -25,6 +25,7 @@
     "static/media/grad.png": "/static/media/grad.710e8df99d9a88304e10.png",
     "static/media/Fundraiser.png": "/static/media/Fundraiser.15f95e23a3766705fbd3.png",
     "static/media/Prom.png": "/static/media/Prom.ae3ee2d26bbc914b6b24.png",
+    "static/media/MADE TOMMY Light.otf": "/static/media/MADE TOMMY Light.baa9639fea2a3259ba0b.otf",
     "static/media/officeparty.png": "/static/media/officeparty.31488603d4e6f45edfc9.png",
     "static/media/Birthdays.png": "/static/media/Birthdays.cda3ea3e75c9c0ec3520.png",
     "static/media/DJLunaEdit_mobile.png": "/static/media/DJLunaEdit_mobile.ca447d3389d689bbdb0f.png",
@@ -32,12 +33,12 @@
     "static/media/djboard4_mobile.png": "/static/media/djboard4_mobile.6f981895fe2ba9ffc340.png",
     "static/media/party.png": "/static/media/party.29e20787a6c62387816c.png",
     "index.html": "/index.html",
-    "main.ccec16bb.css.map": "/static/css/main.ccec16bb.css.map",
-    "main.c4f33797.js.map": "/static/js/main.c4f33797.js.map",
+    "main.e9d16a23.css.map": "/static/css/main.e9d16a23.css.map",
+    "main.4f0ae8df.js.map": "/static/js/main.4f0ae8df.js.map",
     "787.c3034a29.chunk.js.map": "/static/js/787.c3034a29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccec16bb.css",
-    "static/js/main.c4f33797.js"
+    "static/css/main.e9d16a23.css",
+    "static/js/main.4f0ae8df.js"
   ]
 }

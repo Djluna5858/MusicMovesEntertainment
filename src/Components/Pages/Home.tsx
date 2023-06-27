@@ -131,7 +131,7 @@ function Home() {
                <li>Sound system</li>
                <li>Basic lighting setup (e.g. 2 LED lights, cascade lighting)</li>
                <li>DJ equipment (e.g. laptop, mixer, controller)</li>
-               <li>Basic music library with the most popular genres</li>
+               <li>Music library with the most popular genres</li>
                <li>One consultation meeting with the client to discuss music preferences</li>
                <li>Set up and tear down of equipment</li>
             </ul>
@@ -146,7 +146,7 @@ function Home() {
               <li>Upgraded sound system</li>
               <li>Upgraded lighting setup (e.g. 2 LED lights, cascade lighting)</li>
               <li>DJ equipment (e.g. laptop, mixer, controller)</li>
-              <li>Basic music library with the most popular genres</li>
+              <li>Music library with the most popular genres</li>
               <li>One consultation meeting with the client to discuss music preferences</li>
               <li>Set up and tear down of equipment</li>
             </ul>
@@ -178,14 +178,38 @@ function Home() {
           </div>
           <div className="divider"></div>
           <div className="HostPhotoContainer">
-            <img className="HostPhoto" id="HP1" src={JohnBorbaPhoto} />
-            <img className="HostPhoto" id="HP2" src={GradPhoto} />
-            <img className="HostPhoto" id="HP3" src={PromPhoto} />
-            <img className="HostPhoto" id="HP4" src={OfficePartyPhoto} />
-            <img className="HostPhoto" id="HP5" src={BirthdayPhoto} />
-            <img className="HostPhoto" id="HP6" src={MusicPhoto} />
-            <img className="HostPhoto" id="HP7" src={FundraiserPhoto} />
-            <img className="HostPhoto" id="HP8" src={PartyPhoto} />
+            <div className="HPOverlay" id="HP1">
+              <div className="HPText">WEDDINGS</div>
+              <img className="HostPhoto" src={JohnBorbaPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP2">
+              <div className="HPText">GRADUATION</div>
+              <img className="HostPhoto" src={GradPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP3">
+              <div className="HPText">PROM</div>
+              <img className="HostPhoto" src={PromPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP4">
+              <div className="HPText">CORPORATE EVENTS</div>
+              <img className="HostPhoto" src={OfficePartyPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP5">
+              <div className="HPText">BIRTHDAYS</div>
+              <img className="HostPhoto" src={BirthdayPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP6">
+              <div className="HPText">MUSIC EVENTS</div>
+              <img className="HostPhoto" src={MusicPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP7">
+              <div className="HPText">FUNDRAISERS</div>
+              <img className="HostPhoto" src={FundraiserPhoto} />
+            </div>
+            <div className="HPOverlay" id="HP8">
+              <div className="HPText">PRIVATE PARTIES</div>
+              <img className="HostPhoto" src={PartyPhoto} />
+            </div>
           </div>
         </div>
       </div>

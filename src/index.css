@@ -418,11 +418,12 @@ ul.PackageList li::before {
   background-image: url(
     "./Resources/Images/Photos/brick-wall-texture.png"
   );
+  margin: 2rem 5rem;
 }
 
 .HostPhotoContainer-wrapper .divider {
   position: absolute;
-  top: 60px !important;
+  top: 90px !important;
   border: 2px solid black;
   width: 50px;
   left: calc(50% - 25px);
@@ -435,7 +436,7 @@ ul.PackageList li::before {
 .HostPhotoHead {
   color: black;
   font-family: 'MadeTommyExtraBold';
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   width: auto;
@@ -448,7 +449,20 @@ span.WithLine {
 #HomePage .HostPhoto {
   height: auto;
   width: 100%;
-  border-radius: 8px;
+  opacity: .5;
+}
+
+.HPOverlay {
+  display: flex;
+  background-color: black;
+  position: relative;
+  align-items:center;
+  justify-content:center;
+}
+
+.HPText {
+  position: absolute;
+  z-index: 100;
 }
 
 #HP1 {
@@ -619,9 +633,6 @@ span.WithLine {
   content: "EVENT PROMOTION/ MARKETING SERVICESY";
   text-align: left;
 }
-
-
-
 
 
 /* Contact Us */
@@ -1078,7 +1089,8 @@ span.WithLine {
     width: calc(100% - 1rem);
     margin: 0.5rem;
   }
-  #HP1 {
+
+  #HP1 .Overlay {
     grid-row: 1;
     grid-column: 1;
   }

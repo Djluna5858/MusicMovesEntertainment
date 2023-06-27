@@ -35,10 +35,6 @@ Music Moves Entertainment was founded by Roger Luna, better known as DJ Luna, wi
               </p></div>
             </div>
           </div>
-          <div className="AboutUsInstam">
-             Follow us on Instam
-             <div className="divider"></div>
-          </div>
         </div>
       </div> 
     </div>
